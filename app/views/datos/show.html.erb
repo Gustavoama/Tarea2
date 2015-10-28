@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @dato.Fecha %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @dato.Nombre %>
+</p>
+
+<p>
+  <strong>Edad:</strong>
+  <%= @dato.Edad %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @dato.Direccion %>
+</p>
+
+<p>
+  <strong>Comer o:</strong>
+  <%= @dato.Comer_o %>
+</p>
+
+<p>
+  <strong>Dormir:</strong>
+  <%= @dato.Dormir %>
+</p>
+
+<%= link_to 'Edit', edit_dato_path(@dato) %> |
+<%= link_to 'Back', datos_path %>

@@ -1,0 +1,2 @@
+module SusDatosHelper
+end

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Fecha: 2015-10-27 16:18:21
+  Nombre: MyString
+  Edad: 1
+  Direccion: MyText
+  Comer: false
+  Dormir: false
+
+two:
+  Fecha: 2015-10-27 16:18:21
+  Nombre: MyString
+  Edad: 1
+  Direccion: MyText
+  Comer: false
+  Dormir: false
